@@ -1,6 +1,6 @@
-# <h1 align="center"> Hardhat x Foundry Experiment </h1>
+# <h1 align="center"> Hardhat x Foundry Playground </h1>
 
-![Github Actions](https://github.com/jaybuidl/hardhat-foundry-template/workflows/test/badge.svg)
+[![Test](https://github.com/jaybuidl/hardhat-foundry-template/actions/workflows/test.yml/badge.svg)](https://github.com/jaybuidl/hardhat-foundry-template/actions/workflows/test.yml)
 
 ### Getting Started
 
