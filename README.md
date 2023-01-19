@@ -1,8 +1,6 @@
-# <h1 align="center"> Hardhat x Foundry Template </h1>
+# <h1 align="center"> Hardhat x Foundry Experiment </h1>
 
-**Template repository for getting started quickly with Hardhat and Foundry in one project**
-
-![Github Actions](https://github.com/devanonon/hardhat-foundry-template/workflows/test/badge.svg)
+![Github Actions](https://github.com/jaybuidl/hardhat-foundry-template/workflows/test/badge.svg)
 
 ### Getting Started
 
@@ -14,8 +12,8 @@ forge test
 
  * Use Hardhat:
 ```bash
-npm install
-npx hardhat test
+yarn install
+yarn test
 ```
 
 ### Features
@@ -24,12 +22,17 @@ npx hardhat test
 ```bash
 forge test
 # or
-npx hardhat test
+yarn test
 ```
 
  * Use Hardhat's task framework
 ```bash
-npx hardhat example
+yarn hardhat example
+```
+
+ * Install libraries with Hardhat.
+```bash
+yarn add @openzeppelin/contracts
 ```
 
  * Install libraries with Foundry which work with Hardhat.
